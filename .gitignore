@@ -34,3 +34,6 @@ htmlcov/
 # Allure
 allure-results/
 allure-report/
+
+# Шпоргалка
+shporgalka.txt

@@ -1,73 +1,33 @@
-# 🚀 Banking API Autotests Roadmap
+## Milestone 1 — Project Initialization ✅
 
-## Этап 1. Backend
+Дата: 25.06.2026
 
-* [x] Docker Compose
-* [x] FastAPI
-* [x] PostgreSQL
-* [x] SQLAlchemy
-* [x] Создание пользователя
-* [x] Получение пользователя
-* [ ] Обновление пользователя
-* [ ] Удаление пользователя
+Что сделали:
 
----
+- Настроили Docker
+- Настроили FastAPI
+- Подключили PostgreSQL
+- Настроили Git
+- Создали GitHub репозиторий
+- Сделали первый commit
+- Сделали первый push
 
-## Этап 2. Automation
+Итог:
 
-* [ ] Настройка Pytest
-* [ ] Первый API-тест
-* [ ] API Client
-* [ ] Fixtures
-* [ ] Parametrize
-* [ ] Проверка данных в PostgreSQL
-* [ ] Negative tests
-* [ ] Allure Report
+Проект полностью готов к разработке.
 
----
+## Milestone 2 — Project Architecture
 
-## Этап 3. Infrastructure
+Дата: 25.06.2026
 
-* [ ] Переменные окружения (.env)
-* [ ] Конфигурация проекта
-* [ ] Логирование
-* [ ] Docker для тестов
-* [ ] GitHub Actions
+Что сделали:
 
----
+- Создали структуру проекта
+- Вынесли модели
+- Вынесли схемы
+- Настроили конфигурацию
 
-## Этап 4. Python
+Итог:
 
-* [x] Функции
-* [x] Классы
-* [ ] Декораторы
-* [ ] Генераторы (`yield`)
-* [ ] Context Manager
-* [ ] List Comprehension
-* [ ] Type Hints
-* [ ] Dataclasses
+Проект получил модульную архитектуру.
 
----
-
-## Этап 5. Подготовка к собеседованию
-
-* [ ] SQL
-* [ ] HTTP
-* [ ] REST
-* [ ] Docker
-* [ ] Git
-* [ ] Linux
-* [ ] PostgreSQL
-* [ ] Kafka
-* [ ] Python Core
-
----
-
-## Достижения
-
-* [ ] Первый pull request
-* [ ] 50 автотестов
-* [ ] 100 автотестов
-* [ ] Allure Report
-* [ ] GitHub Actions
-* [ ] README уровня open-source проекта

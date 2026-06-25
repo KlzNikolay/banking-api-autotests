@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from app.database import Base, engine, SessionLocal
-from app.models import User
-from app.schemas import UserCreate, UserResponse
+from app.db.database import Base, engine, SessionLocal
+from app.models.models import User
+from app.schemas.schemas import UserCreate, UserResponse
 
 app = FastAPI(title="Banking API Pet Project")
 
