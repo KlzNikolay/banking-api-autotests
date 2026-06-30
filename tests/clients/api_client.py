@@ -8,6 +8,8 @@ class APIClient:
         self.base_url = settings.api_base_url
         self.session = requests.Session()
 
+    def get(self, endpoint: str):
+        return self.session.get(f"{self.base_url}{endpoint}")
+
     def health(self):
-        response = self.session.get(f"{self.base_url}/health")
-        return response
+        return self.get("/health")
